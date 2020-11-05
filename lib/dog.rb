@@ -1,5 +1,9 @@
 # Your code goes here!
 class Dog 
+  def initialize(bark)
+    puts "woof!"
+  end
+  
   def name=(name) 
     @name=name
   end 
@@ -8,7 +12,5 @@ class Dog
     @name 
   end
   
-  def initialize(bark)
-    puts "woof!"
-  end
+  
 end 
